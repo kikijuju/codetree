@@ -1,5 +1,5 @@
 def stars():
-    return ("*" * 10)
+    print("*" * 10)
 
 for _ in range(5):
     stars()
