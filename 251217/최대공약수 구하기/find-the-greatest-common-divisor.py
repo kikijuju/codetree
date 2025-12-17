@@ -9,7 +9,11 @@ def func(n, m):
         result = n % m
     else:
         result = m % n
-    print(result)
+
+    if result == 0:
+        print(1)
+    else: 
+        print(result)
 
 
 func(n, m)
