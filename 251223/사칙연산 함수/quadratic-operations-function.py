@@ -12,5 +12,11 @@ def cal(a, o, c):
         return a//c
     elif o == "*":
         return a*c
+    else:
+        return False
 
-print(f'{a} {o} {c} = {cal(a,o,c)}')
+
+if cal(a, o, c) == False:
+    print('False')
+else:
+    print(f'{a} {o} {c} = {cal(a,o,c)}')
