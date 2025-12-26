@@ -4,6 +4,8 @@ b = list(map(int, input().split()))
 
 # Please write your code here.
 def func(a, b):
+    if len(b) == 1:
+        return False
     str_a = ''
     str_b = ''
     for i in a:
@@ -12,9 +14,12 @@ def func(a, b):
         str_b += str(j) + ' '
 
     if str_b in str_a:
-        print('Yes')
+        return True
     else:
-        print('No')
+        return False
 
-func(a, b)
+if func(a, b):
+    print('Yes')
+else:
+    print('No')
     
