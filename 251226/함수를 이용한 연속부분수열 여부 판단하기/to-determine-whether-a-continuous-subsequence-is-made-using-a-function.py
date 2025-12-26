@@ -4,7 +4,7 @@ b = list(map(int, input().split()))
 
 # Please write your code here.
 def func(a, b):
-    if len(b) == 1:
+    if len(b) == 1 or len(a) == 1:
         return False
     str_a = ''
     str_b = ''
