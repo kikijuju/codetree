@@ -5,7 +5,7 @@ def TF(M, D):
     lst = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if M > 12 or D > 31:
         return False
-    elif D <= lst[M+1]:
+    elif D <= lst[M-1]:
         return True
 
 
