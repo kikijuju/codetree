@@ -7,9 +7,9 @@ def func(a, b):
     str_a = ''
     str_b = ''
     for i in a:
-        str_a += str(i)
+        str_a += str(i) + ' '
     for j in b:
-        str_b += str(j)
+        str_b += str(j) + ' '
 
     if str_b in str_a:
         print('Yes')
