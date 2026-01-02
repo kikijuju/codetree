@@ -1,16 +1,18 @@
 n = int(input())
 
 # Please write your code here.
+m = n
 def func(n):
-    
-    if n == 8:
+    global m
+
+    if n == 0:
         return
     
     print(n, end = ' ')
-    func(n+1)
-    if n == 7:
+    func(n-1)
+    if n == 1:
         print()
     print(n, end = ' ')
     
 
-func(1)
+func(n)
