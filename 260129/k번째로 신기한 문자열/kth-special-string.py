@@ -10,4 +10,4 @@ for i in range(n):
         new_lst.append(str[i])
 
 new_lst.sort()
-print(new_lst[k-2])  
+print(new_lst[k-1])  
