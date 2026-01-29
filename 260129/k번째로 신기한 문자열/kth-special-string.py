@@ -10,4 +10,8 @@ for i in range(n):
         new_lst.append(str[i])
         
 new_lst.sort()
-print(new_lst[k-1])  
+
+if len(new_lst) == 1:
+    print(new_lst[0])
+else:
+    print(new_lst[k-1])  
