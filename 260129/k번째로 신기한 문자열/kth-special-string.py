@@ -6,9 +6,8 @@ str = [input() for _ in range(n)]
 new_lst = []
 
 for i in range(n):
-    if t in str[i]:
+    if t == str[i][0:2]:
         new_lst.append(str[i])
         
-list(set(new_lst))
 new_lst.sort()
 print(new_lst[k-1])  
